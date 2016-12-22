@@ -4,6 +4,6 @@ chrome.runtime.onInstalled.addListener(function (details) {
   console.log('previousVersion', details.previousVersion);
 });
 
-chrome.browserAction.setBadgeText({text: 'yo!'});
+chrome.browserAction.setBadgeText({text: '!?!'});
 
 console.log('yo!');
